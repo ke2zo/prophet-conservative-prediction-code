@@ -27,7 +27,7 @@ certification.
 
 ```
 python3 reproduce.py                 # tier quick: 30 steps, about 40 minutes on one core
-python3 reproduce.py --tier full     # adds 10 long steps: about 2.5 hours with 4 processes
+python3 reproduce.py --tier full     # adds 8 long steps: about 2.5 hours with 4 processes
 python3 reproduce.py --list          # all steps; --only NAME ... runs selected steps
 ```
 
@@ -69,10 +69,14 @@ checks. Run every script from its own folder; `reproduce.py` does this.
 
 ## Version accompanying the manuscript
 
-Release `v1.0.0` is the code snapshot prepared for the Theoretical Computer Science submission.
-It was exported from the private working repository at commit `59ff237`, with a new public Git history.
+Release `v1.0.1` is the code snapshot prepared for the Theoretical Computer Science submission.
+The computation files were exported with a new public Git history; v1.0.1 corrects
+the reproduction instructions and excludes Git metadata from the reproduction workspace.
 The public repository contains computation code and supporting outputs only.
 
 Before publication, six selected reproduction steps passed and matched the saved outputs:
 `ivec_selftest`, `glue_tubes`, `point_values`, `gap_check`, `obstruction_exact`, and `finite_n_exact`.
 These checks do not constitute a fresh run of the full certification cover.
+
+The manuscript and its Supplement are supplied through the journal submission, not in this code repository.
+No reuse license has been selected yet.

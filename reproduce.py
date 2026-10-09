@@ -174,7 +174,7 @@ def main():
     work = os.path.abspath(args.workdir)
     if os.path.exists(work):
         shutil.rmtree(work)
-    shutil.copytree(HERE, work, ignore=shutil.ignore_patterns('_reproduce*', '__pycache__', '*.pyc'))
+    shutil.copytree(HERE, work, ignore=shutil.ignore_patterns('.git', '.venv', '_reproduce*', '__pycache__', '*.pyc'))
     report = [f"reproduce.py --tier {args.tier} {'--only ' + ' '.join(args.only) if args.only else ''}".strip(),
               f"python {sys.version.split()[0]}; work directory {work}", '']
     def say(msg):
