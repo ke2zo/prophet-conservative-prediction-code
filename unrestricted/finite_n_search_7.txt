@@ -1,0 +1,8 @@
+n=7 [perturbed n=6 #6] adversary optimum 0.8407345  a=2.36175 probs=[0.61829, 0.15553, 0.18704, 0.03913]  (353 LPs, 1149s)
+n=7 [perturbed n=6 #7] adversary optimum 0.8407405  a=2.35276 probs=[0.61723, 0.15605, 0.18772, 0.039]  (378 LPs, 1273s)
+n=7 [perturbed n=6 #5] adversary optimum 0.8407307  a=2.37376 probs=[0.62057, 0.15361, 0.18655, 0.03928]  (424 LPs, 1294s)
+n=7 [from n=3] adversary optimum 0.8408338  a=2.33590 probs=[0.61064, 0.16342, 0.18689, 0.03905]  (632 LPs, 1442s)
+n=7 [from n=6] adversary optimum 0.8407307  a=2.37408 probs=[0.62082, 0.15329, 0.18662, 0.03928]  (533 LPs, 1570s)
+n=7 [from n=5] adversary optimum 0.8407307  a=2.37456 probs=[0.62068, 0.15353, 0.1865, 0.03929]  (532 LPs, 1607s)
+n=7 [from n=4] adversary optimum 0.8410078  a=2.53181 probs=[0.62257, 0.15475, 0.18238, 0.0403]  (632 LPs, 1819s)
+n=7 [perturbed n=6 #4] adversary optimum 0.8407309  a=2.37456 probs=[0.62083, 0.15331, 0.18658, 0.03928]  (1026 LPs, 2895s)

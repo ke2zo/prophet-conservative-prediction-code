@@ -1,0 +1,2 @@
+dGamma/dlog y1 over the whole feasible grid: positive 0, negative 112145
+columns (fixed r) with Gamma monotone in y1: 360 ; non-monotone: 0

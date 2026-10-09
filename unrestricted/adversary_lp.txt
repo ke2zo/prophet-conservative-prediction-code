@@ -1,0 +1,5 @@
+obstruction instance (c = 4, n = 2), all valid rules: LP 0.940700808625; exact 349/371 = 0.940700808625; |difference| = 1.1e-16
+obstruction instance (c = 4, n = 2), rules depending on M only: LP 0.951482479784; exact 353/371 = 0.951482479784; |difference| = 0.0e+00
+natural-family breach (c = 5, n = 2), all valid rules: LP 0.893586141641; exact 0.893586142 to 9 digits (obstruction_exact.txt); |difference| = 3.6e-10
+obstruction instance at horizon n = 3, all valid rules: LP 0.938435229
+obstruction instance at horizon n = 3, rules depending on M only: LP 0.947840958

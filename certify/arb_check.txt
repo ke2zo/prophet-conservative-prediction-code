@@ -1,0 +1,96 @@
+python-flint 0.9.0, precision 128 bits
+
+TAILS (Lemma 5.7) for every certified piece
+  [1.0001, 1.0003]: eta = 3.3e-05, U = 50, y_top = 0.995: pass
+  [1.0003, 1.001]: eta = 0.000159, U = 45, y_top = 0.995: pass
+  [1.001, 1.003]: eta = 0.000585, U = 45, y_top = 0.995: pass
+  [1.003, 1.01]: eta = 0.00172, U = 45, y_top = 0.995: pass
+  [1.01, 1.05]: eta = 0.005289, U = 45, y_top = 0.995: pass
+  [1.05, 1.25]: eta = 0.021815, U = 40, y_top = 0.995: pass
+  [1.25, 2]: eta = 0.0719, U = 40, y_top = 0.995: pass
+  [2, 5]: eta = 0.162811, U = 40, y_top = 0.995: pass
+  [5, 20]: eta = 0.25314, U = 40, y_top = 0.995: pass
+  [20, 50]: eta = 0.310205, U = 40, y_top = 0.999: pass
+  [50, 100]: eta = 0.325607, U = 40, y_top = 0.999: pass
+  [100, 300]: eta = 0.331912, U = 40, y_top = 0.9999: pass
+  [300, 1000]: eta = 0.337151, U = 40, y_top = 0.9999: pass
+  [1000, 1500]: eta = 0.339642, U = 40, y_top = 0.99999: pass
+  [1500, 2200]: eta = 0.3401, U = 40, y_top = 0.99999: pass
+  [2200, 3000]: eta = 0.340426, U = 40, y_top = 0.99999: pass
+
+POINT VALUES (Table 2): Krawczyk for {Gamma = 0, c = c0}, box of relative size 1e-22
+   1.0001: rho = [0.9999312708125208598718 +/- 3.94e-23]  inside [0.99993127081, 0.99993127082]: True;  below rho_A of its piece: True
+    1.001: rho = [0.9993725558127637629602 +/- 3.93e-23]  inside [0.99937255581, 0.99937255582]: True;  below rho_A of its piece: True
+     1.01: rho = [0.9946687955077036091550 +/- 2.25e-23]  inside [0.99466879550, 0.99466879551]: True;  below rho_A of its piece: True
+      1.1: rho = [0.9630635591128661283784 +/- 4.84e-24]  inside [0.96306355911, 0.96306355912]: True;  below rho_A of its piece: True
+     1.25: rho = [0.9302554226602254352570 +/- 9.38e-24]  inside [0.93025542266, 0.93025542267]: True;  below rho_A of its piece: True
+      1.5: rho = [0.8964742470266619196066 +/- 5.00e-23]  inside [0.89647424702, 0.89647424703]: True;  below rho_A of its piece: True
+        2: rho = [0.8592580902505444443944 +/- 3.91e-23]  inside [0.85925809025, 0.85925809026]: True;  below rho_A of its piece: True
+      2.2: rho = [0.8496746784777845130517 +/- 4.34e-23]  inside [0.84967467847, 0.84967467848]: True;  below rho_A of its piece: True
+        3: rho = [0.8247166364326479569851 +/- 3.89e-23]  inside [0.82471663643, 0.82471663644]: True;  below rho_A of its piece: True
+        4: rho = [0.8076775302723089266448 +/- 2.40e-23]  inside [0.80767753027, 0.80767753028]: True;  below rho_A of its piece: True
+        5: rho = [0.7973025272626127079559 +/- 4.61e-23]  inside [0.79730252726, 0.79730252727]: True;  below rho_A of its piece: True
+       10: rho = [0.7754357832411188670580 +/- 5.75e-25]  inside [0.77543578324, 0.77543578325]: True;  below rho_A of its piece: True
+       20: rho = [0.7630958772952341675904 +/- 2.05e-23]  inside [0.76309587729, 0.76309587730]: True;  below rho_A of its piece: True
+       50: rho = [0.7543429559055940838828 +/- 2.36e-23]  inside [0.75434295590, 0.75434295591]: True;  below rho_A of its piece: True
+      100: rho = [0.7507900497910985762967 +/- 9.66e-24]  inside [0.75079004979, 0.75079004980]: True;  below rho_A of its piece: True
+      300: rho = [0.7478561831223977917666 +/- 4.65e-23]  inside [0.74785618312, 0.74785618313]: True;  below rho_A of its piece: True
+     1000: rho = [0.7464660753829810457346 +/- 5.77e-24]  inside [0.74646607537, 0.74646607539]: True;  below rho_A of its piece: True
+     2000: rho = [0.7460704518876907354093 +/- 1.00e-23]  inside [0.74607045187, 0.74607045190]: True;  below rho_A of its piece: True
+     3000: rho = [0.7459150103549555546319 +/- 2.93e-23]  inside [0.74591501034, 0.74591501037]: True;  below rho_A of its piece: True
+
+TUBE: every cell of every validated tube
+  cert_1.0001_1.001.json.gz: 567 cells, failing: 0; cells subdivided in r: 0
+  cert_1.0001_1.001.json.gz: gluing problems: 0; min dc/dr >= 3.5332; c(r_1) <= 1.00009558 (< c_a = 1.0001), c(r_2) >= 1.021021 (> c_b = 1.001): True
+  cert_1.0001_1.001.json.gz: cells whose enclosures of c or rho_hat along the curve are disjoint from the recorded ones: 0
+  cert_1.0001_1.001.json.gz: piece [1.0001, 1.0003]: 117 cells meet it (0 cut in r for this test), max rho_hat <= 0.9999669095 < rho_A = 0.9999670011: True
+  cert_1.0001_1.001.json.gz: piece [1.0003, 1.001]: 128 cells meet it (1 cut in r for this test), max rho_hat <= 0.9998396212 < rho_A = 0.9998410253: True
+  cert_1.0001_1.001.json.gz: pass  (2s)
+  cert_1.001_1000.json.gz: 14699 cells, failing: 0; cells subdivided in r: 52
+  cert_1.001_1000.json.gz: gluing problems: 0; min dc/dr >= 3.1262; c(r_1) <= 1.00097037 (< c_a = 1.001), c(r_2) >= 1019.998147 (> c_b = 1000.0): True
+  cert_1.001_1000.json.gz: cells whose enclosures of c or rho_hat along the curve are disjoint from the recorded ones: 0
+  cert_1.001_1000.json.gz: piece [1.001, 1.003]: 117 cells meet it (1 cut in r for this test), max rho_hat <= 0.9994115870 < rho_A = 0.9994153420: True
+  cert_1.001_1000.json.gz: piece [1.003, 1.01]: 127 cells meet it (1 cut in r for this test), max rho_hat <= 0.9982697288 < rho_A = 0.9982829533: True
+  cert_1.001_1000.json.gz: piece [1.01, 1.05]: 166 cells meet it (1 cut in r for this test), max rho_hat <= 0.9947038943 < rho_A = 0.9947388263: True
+  cert_1.001_1000.json.gz: piece [1.05, 1.25]: 65 cells meet it (1 cut in r for this test), max rho_hat <= 0.9786101496 < rho_A = 0.9786507342: True
+  cert_1.001_1000.json.gz: piece [1.25, 2]: 52 cells meet it (1 cut in r for this test), max rho_hat <= 0.9314709111 < rho_A = 0.9329228473: True
+  cert_1.001_1000.json.gz: piece [2, 5]: 69 cells meet it (1 cut in r for this test), max rho_hat <= 0.8598273496 < rho_A = 0.8599849847: True
+  cert_1.001_1000.json.gz: piece [5, 20]: 151 cells meet it (1 cut in r for this test), max rho_hat <= 0.7978179244 < rho_A = 0.7979954355: True
+  cert_1.001_1000.json.gz: piece [20, 50]: 301 cells meet it (0 cut in r for this test), max rho_hat <= 0.7632391321 < rho_A = 0.7632393404: True
+  cert_1.001_1000.json.gz: piece [50, 100]: 501 cells meet it (0 cut in r for this test), max rho_hat <= 0.7543681659 < rho_A = 0.7543713936: True
+  cert_1.001_1000.json.gz: piece [100, 300]: 2242 cells meet it (0 cut in r for this test), max rho_hat <= 0.7507981811 < rho_A = 0.7508003532: True
+  cert_1.001_1000.json.gz: piece [300, 1000]: 10605 cells meet it (0 cut in r for this test), max rho_hat <= 0.7478566727 < rho_A = 0.7478586936: True
+  cert_1.001_1000.json.gz: pass  (190s)
+  cert_1000_3000.json.gz: 50482 cells, failing: 0; cells subdivided in r: 0
+  cert_1000_3000.json.gz: gluing problems: 0; min dc/dr >= 854.2918; c(r_1) <= 998.00978209 (< c_a = 1000.0), c(r_2) >= 3060.028463 (> c_b = 3000.0): True
+  cert_1000_3000.json.gz: cells whose enclosures of c or rho_hat along the curve are disjoint from the recorded ones: 0
+  cert_1000_3000.json.gz: piece [1000, 1500]: 10401 cells meet it (0 cut in r for this test), max rho_hat <= 0.7464661316 < rho_A = 0.7464680862: True
+  cert_1000_3000.json.gz: piece [1500, 2200]: 17312 cells meet it (0 cut in r for this test), max rho_hat <= 0.7462113321 < rho_A = 0.7462129692: True
+  cert_1000_3000.json.gz: pass  (672s)
+  cert_2200_3000.json.gz: its tube is the tube of cert_1000_3000.json.gz
+  cert_2200_3000.json.gz: 50482 cells, failing: 0; cells subdivided in r: 0
+  cert_2200_3000.json.gz: gluing problems: 0; min dc/dr >= 854.2918; c(r_1) <= 998.00978209 (< c_a = 1000.0), c(r_2) >= 3060.028463 (> c_b = 3000.0): True
+  cert_2200_3000.json.gz: cells whose enclosures of c or rho_hat along the curve are disjoint from the recorded ones: 0
+  cert_2200_3000.json.gz: piece [2200, 3000]: 20206 cells meet it (0 cut in r for this test), max rho_hat <= 0.7460297999 < rho_A = 0.7460314855: True
+  cert_2200_3000.json.gz: pass  (0s)
+
+COVER: a random sample of the leaves of the exclusion cover of every piece (seed 2026)
+  [1.0001, 1.0003]: 466 leaves sampled, excluded again: 466, not resolved: 0 ; Arb boxes used: 850  (71s)
+  [1.0003, 1.001]: 463 leaves sampled, excluded again: 463, not resolved: 0 ; Arb boxes used: 755  (45s)
+  [1.001, 1.003]: 468 leaves sampled, excluded again: 468, not resolved: 0 ; Arb boxes used: 764  (31s)
+  [1.003, 1.01]: 474 leaves sampled, excluded again: 474, not resolved: 0 ; Arb boxes used: 910  (40s)
+  [1.01, 1.05]: 489 leaves sampled, excluded again: 489, not resolved: 0 ; Arb boxes used: 1037  (35s)
+  [1.05, 1.25]: 501 leaves sampled, excluded again: 501, not resolved: 0 ; Arb boxes used: 1237  (17s)
+  [1.25, 2]: 552 leaves sampled, excluded again: 552, not resolved: 0 ; Arb boxes used: 1436  (16s)
+  [2, 5]: 579 leaves sampled, excluded again: 579, not resolved: 0 ; Arb boxes used: 1391  (17s)
+  [5, 20]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1076  (34s)
+  [20, 50]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1080  (69s)
+  [50, 100]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1040  (113s)
+  [100, 300]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1100  (169s)
+  [300, 1000]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1096  (289s)
+  [1000, 1500]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1084  (210s)
+  [1500, 2200]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1092  (226s)
+  [2200, 3000]: 600 leaves sampled, excluded again: 600, not resolved: 0 ; Arb boxes used: 1116  (238s)
+  total: 8792 leaves, excluded again: 8792, Arb boxes: 17064
+
+ALL CHECKS PASS   (parts: tails points tube cover; time 2485s)

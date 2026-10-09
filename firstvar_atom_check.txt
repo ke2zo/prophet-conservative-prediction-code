@@ -1,0 +1,30 @@
+
+c=2.0: rho_EL=0.8592581  J(PWS)=0.8592581  M*=1.1732  eps=0.4811  ALG=1.17321
+   z=  1.0000  dJ/deta (finite diff) = +8.327e-09   first-order prediction = +0.000e+00
+   z=  1.0866  dJ/deta (finite diff) = +4.996e-09   first-order prediction = +0.000e+00
+   z=  1.1732  dJ/deta (finite diff) = +5.107e-09   first-order prediction = +0.000e+00
+   z=  1.5866  dJ/deta (finite diff) = +1.062e-07   first-order prediction = +0.000e+00
+   z=  2.0000  dJ/deta (finite diff) = +2.595e-07   first-order prediction = +0.000e+00
+   z=  2.0500  dJ/deta (finite diff) = -1.202e-02   first-order prediction = -1.202e-02
+   z=  2.2000  dJ/deta (finite diff) = -4.807e-02   first-order prediction = -4.807e-02
+   z=  3.0000  dJ/deta (finite diff) = -2.404e-01   first-order prediction = -2.404e-01
+
+c=5.0: rho_EL=0.7973025  J(PWS)=0.7973025  M*=1.4982  eps=0.2134  ALG=1.49823
+   z=  1.0000  dJ/deta (finite diff) = +8.660e-09   first-order prediction = +0.000e+00
+   z=  1.2491  dJ/deta (finite diff) = +1.710e-08   first-order prediction = +0.000e+00
+   z=  1.4982  dJ/deta (finite diff) = +6.328e-09   first-order prediction = +0.000e+00
+   z=  3.2491  dJ/deta (finite diff) = +4.730e-07   first-order prediction = +0.000e+00
+   z=  5.0000  dJ/deta (finite diff) = +1.439e-06   first-order prediction = +0.000e+00
+   z=  5.0500  dJ/deta (finite diff) = -4.075e-03   first-order prediction = -4.077e-03
+   z=  5.2000  dJ/deta (finite diff) = -1.630e-02   first-order prediction = -1.631e-02
+   z=  6.0000  dJ/deta (finite diff) = -8.153e-02   first-order prediction = -8.153e-02
+
+c=10.0: rho_EL=0.7754358  J(PWS)=0.7754358  M*=1.7967  eps=0.1228  ALG=1.79674
+   z=  1.0000  dJ/deta (finite diff) = +6.217e-09   first-order prediction = +0.000e+00
+   z=  1.3984  dJ/deta (finite diff) = +1.377e-08   first-order prediction = +0.000e+00
+   z=  1.7967  dJ/deta (finite diff) = -1.277e-08   first-order prediction = +0.000e+00
+   z=  5.8984  dJ/deta (finite diff) = +1.305e-06   first-order prediction = +0.000e+00
+   z= 10.0000  dJ/deta (finite diff) = +4.385e-06   first-order prediction = +0.000e+00
+   z= 10.0500  dJ/deta (finite diff) = -1.929e-03   first-order prediction = -1.933e-03
+   z= 10.2000  dJ/deta (finite diff) = -7.727e-03   first-order prediction = -7.732e-03
+   z= 11.0000  dJ/deta (finite diff) = -3.865e-02   first-order prediction = -3.866e-02

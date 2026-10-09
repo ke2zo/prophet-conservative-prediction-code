@@ -1,0 +1,11 @@
+__pycache__/
+tube_*.json
+*.npy
+# the certification log is part of the record (the root .gitignore ignores *.log)
+!cert_*.log
+
+# the float continuation of the zero curve is used by the figure and asymptotics scripts
+!curve_float.npy
+
+# the extended float curve (input of the extended certification runs)
+!curve_float_ext.npy

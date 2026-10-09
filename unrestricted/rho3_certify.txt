@@ -1,0 +1,8 @@
+AD self-test: max relative deviation of AD gradients from central differences 3.6e-08 (600 points)
+case C: OPT_3 - 0.8733 E[M_3] >= 0 certified on 144 boxes (180 infeasible, 647 evaluated); failed boxes: 0
+case B: OPT_3 - 0.8733 E[M_3] >= 0 certified on 11409 boxes (911 infeasible, 24639 evaluated); failed boxes: 0
+case A: OPT_3 - 0.8733 E[M_3] >= 0 certified on 3022 boxes (284 infeasible, 6611 evaluated); failed boxes: 0
+upper bound: the law with atoms 0, 1, 1.32065, 3 and probabilities ['6413/20000', '383/1250', '12661/50000', '11973/100000'] has OPT_3/E[M_3] = 0.8733044536 (exact rational)
+hence 0.8733 <= rho_3(3) <= 0.8733044536
+control: the bound 0.87331 is refuted in case A: feasible point [1.00006103515625, 0.3204345703125, 0.6251220703125] with f < 0
+control: the bound 0.87331 is refuted in case B: feasible point [0.999755859375, 0.32080078125, 0.62548828125] with f < 0

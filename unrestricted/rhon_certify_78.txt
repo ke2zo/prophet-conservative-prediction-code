@@ -1,0 +1,8 @@
+n=7: OPT_n - 0.845355 E[M_n] >= 0 certified in all 7 cases: 44489634 boxes evaluated (175882 accepted by the interval extension, 14339382 by the mean-value form, 2283930 by the Lagrangian relaxation, 5445735 infeasible) [260s]
+      upper bound: atoms ['0', '1', '1.095868', '1.1796028', '3'], probabilities ['0.7027116', '0.1707257', '0.0456362', '0.0386509', '0.0422756']: OPT_7/E[M_7] = 0.8453556407 (exact)
+      hence 0.845355 <= rho_7(3) <= 0.8453556407
+n=8: OPT_n - 0.842265 E[M_n] >= 0 certified in all 8 cases: 245127516 boxes evaluated (1006240 accepted by the interval extension, 62207747 by the mean-value form, 26247561 by the Lagrangian relaxation, 33102338 infeasible) [1827s]
+      upper bound: atoms ['0', '1', '1.098169', '1.1821', '1.257266', '3'], probabilities ['0.708441', '0.146514', '0.040619', '0.034578', '0.02973', '0.040118']: OPT_8/E[M_8] = 0.8422656504 (exact)
+      hence 0.842265 <= rho_8(3) <= 0.8422656504
+      control n=7: the bound 0.8453560 is refuted (case j=3, feasible point [0.39328, 0.702515, 0.767578, 0.873535, 0.918945] with f = -1.9e-08; 6466803 boxes, 56s)
+      control n=8: the bound 0.8422660 is refuted (case j=4, feasible point [0.389893, 0.70816, 0.855225, 0.895752, 0.929932] with f = -1.7e-08; 2037349 boxes, 19s)

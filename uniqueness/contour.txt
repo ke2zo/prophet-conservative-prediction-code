@@ -1,0 +1,8 @@
+number of zero-contour components: 7
+component 0: 3 points; y1 in [0.0287, 0.0291], r in [0.732, 0.734]; c from 1013 to 1251; rho from 0.74632 to 0.74658; c along the curve is decreasing
+component 1: 3 points; y1 in [0.0534, 0.0537], r in [0.628, 0.63]; c from 227 to 235.8; rho from 0.74831 to 0.74844; c along the curve is decreasing
+component 2: 3 points; y1 in [0.0606, 0.0636], r in [0.596, 0.606]; c from 139.1 to 168; rho from 0.74911 to 0.74983; c along the curve is decreasing
+component 3: 3 points; y1 in [0.0683, 0.0713], r in [0.574, 0.583]; c from 104.2 to 122.5; rho from 0.75005 to 0.75079; c along the curve is decreasing
+component 4: 3 points; y1 in [0.0762, 0.0804], r in [0.55, 0.561]; c from 76.49 to 91.12; rho from 0.75117 to 0.75209; c along the curve is decreasing
+component 5: 4 points; y1 in [0.0845, 0.0912], r in [0.524, 0.54]; c from 55.45 to 69.05; rho from 0.75246 to 0.75377; c along the curve is decreasing
+component 6: 398 points; y1 in [0.0705, 0.237], r in [1e-06, 0.519]; c from 1 to 53.22; rho from 0.75394 to 1.00010; c along the curve is decreasing

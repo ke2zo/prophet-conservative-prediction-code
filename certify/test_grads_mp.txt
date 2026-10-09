@@ -1,0 +1,1 @@
+points tested: 90 of 100; partial derivatives checked: 2520; not enclosed: 0; median relative width of the enclosures: 8.0e-14, largest: 7.0e-11

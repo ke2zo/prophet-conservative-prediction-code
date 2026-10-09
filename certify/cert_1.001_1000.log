@@ -1,0 +1,285 @@
+== c in [1.001, 1000.0]:  tube r in [0.000228, 0.722648]
+round 1: tested 2241, accepted 618, split 1623
+round 2: tested 3246, accepted 1232, split 2014
+round 3: tested 4028, accepted 1226, split 2802
+round 4: tested 5604, accepted 2284, split 3320
+round 5: tested 6640, accepted 3941, split 2699
+round 6: tested 5398, accepted 5398, split 0
+tube: 14699 cells, glue problems: 0, min dc/dr >= 0.2185, max drho/dr <= 30.0571
+c(r_1) in [1.000970, 1.000970]  (< c_a: True);  c(r_2) in [1019.998407, 1020.010644]  (> c_b: True)
+
+==== piece c in [1.001, 1.003]: max rho_hat on the curve = 0.9994130;  eta = 0.000585  (rho_A = 1/(1+eta) = 0.9994153; rho_hat <= rho_A verified: True)
+tails pass with U = 45, y_top = 0.995
+(Z1) r<=e^-30: lam_max=7.4439, T*<0.2481, y1+T*/b0<0.3675, c-1 <= 4.197e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>2.535e+06, c > 2.535e+06  (> c_b: True)
+(Z3) y1<=e^-45: delta <= 6.0368e-05  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6004, left 140, elapsed 1s  [left: y1 in (2.62e-05,0.244), r in (1.3e-05,0.5)]
+level 1: cells 560, resolved 377, left 183, elapsed 2s  [left: y1 in (5.29e-05,0.172), r in (0.000116,0.349)]
+level 2: cells 732, resolved 645, left 87, elapsed 3s  [left: y1 in (0.000152,0.172), r in (0.000185,0.116)]
+level 3: cells 348, resolved 317, left 31, elapsed 5s  [left: y1 in (0.101,0.157), r in (0.000217,0.00103)]
+level 4: cells 124, resolved 88, left 36, elapsed 5s  [left: y1 in (0.111,0.132), r in (0.000225,0.000755)]
+level 5: cells 144, resolved 77, left 67, elapsed 6s  [left: y1 in (0.111,0.129), r in (0.000234,0.000755)]
+level 6: cells 268, resolved 136, left 132, elapsed 7s  [left: y1 in (0.111,0.126), r in (0.000234,0.000748)]
+level 7: cells 528, resolved 266, left 262, elapsed 9s  [left: y1 in (0.111,0.126), r in (0.000234,0.000748)]
+level 8: cells 1048, resolved 529, left 519, elapsed 10s  [left: y1 in (0.111,0.126), r in (0.000235,0.000746)]
+level 9: cells 2076, resolved 1494, left 582, elapsed 13s  [left: y1 in (0.111,0.126), r in (0.000237,0.000746)]
+level 10: cells 2328, resolved 2193, left 135, elapsed 15s  [left: y1 in (0.111,0.126), r in (0.000237,0.000745)]
+level 11: cells 540, resolved 540, left 0, elapsed 16s
+cover: resolved by criterion: {"T*<=0": 147, "tau T*>=1-y1": 1153, "delta<=eta": 3842, "c>c_b (lower bd)": 805, "c<c_a (upper bd)": 397, "F1 rho>rho_A": 1148, "small-T* bounds": 83, "F0' c>c_b (partial bracket)": 579, "F2 c>c_b": 15, "F2 c<c_a": 13, "F3 Gamma<0": 1742, "F3 Gamma>0": 876, "in tube": 1866}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [1.003, 1.01]: max rho_hat on the curve = 0.9982802;  eta = 0.00172  (rho_A = 1/(1+eta) = 0.9982830; rho_hat <= rho_A verified: True)
+tails pass with U = 45, y_top = 0.995
+(Z1) r<=e^-30: lam_max=6.3654, T*<0.2122, y1+T*/b0<0.3193, c-1 <= 3.576e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>2.191e+07, c > 2.191e+07  (> c_b: True)
+(Z3) y1<=e^-45: delta <= 6.0368e-05  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6024, left 120, elapsed 1s  [left: y1 in (5.29e-05,0.493), r in (4.54e-05,0.651)]
+level 1: cells 480, resolved 305, left 175, elapsed 2s  [left: y1 in (0.000152,0.244), r in (0.000404,0.349)]
+level 2: cells 700, resolved 664, left 36, elapsed 3s  [left: y1 in (0.000436,0.205), r in (0.000553,0.101)]
+level 3: cells 144, resolved 115, left 29, elapsed 4s  [left: y1 in (0.121,0.172), r in (0.000646,0.00284)]
+level 4: cells 116, resolved 75, left 41, elapsed 4s  [left: y1 in (0.121,0.15), r in (0.000726,0.00274)]
+level 5: cells 164, resolved 90, left 74, elapsed 5s  [left: y1 in (0.123,0.147), r in (0.000741,0.00263)]
+level 6: cells 296, resolved 150, left 146, elapsed 6s  [left: y1 in (0.125,0.147), r in (0.000741,0.00263)]
+level 7: cells 584, resolved 293, left 291, elapsed 8s  [left: y1 in (0.125,0.147), r in (0.000744,0.00263)]
+level 8: cells 1164, resolved 589, left 575, elapsed 10s  [left: y1 in (0.126,0.147), r in (0.000744,0.00263)]
+level 9: cells 2300, resolved 1776, left 524, elapsed 12s  [left: y1 in (0.126,0.146), r in (0.000745,0.00262)]
+level 10: cells 2096, resolved 2024, left 72, elapsed 15s  [left: y1 in (0.126,0.146), r in (0.000767,0.00256)]
+level 11: cells 288, resolved 288, left 0, elapsed 15s
+cover: resolved by criterion: {"T*<=0": 143, "tau T*>=1-y1": 1153, "delta<=eta": 3938, "c>c_b (lower bd)": 713, "c<c_a (upper bd)": 370, "F1 rho>rho_A": 803, "small-T* bounds": 52, "F0' c>c_b (partial bracket)": 352, "F2 c>c_b": 24, "F2 c<c_a": 10, "F3 Gamma<0": 1690, "F3 Gamma>0": 1296, "in tube": 1849}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [1.01, 1.05]: max rho_hat on the curve = 0.9947363;  eta = 0.005289  (rho_A = 1/(1+eta) = 0.9947388; rho_hat <= rho_A verified: True)
+tails pass with U = 45, y_top = 0.995
+(Z1) r<=e^-30: lam_max=5.2421, T*<0.1747, y1+T*/b0<0.2690, c-1 <= 3.002e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>2.072e+08, c > 2.072e+08  (> c_b: True)
+(Z3) y1<=e^-45: delta <= 6.0368e-05  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6041, left 103, elapsed 1s  [left: y1 in (0.000216,0.493), r in (0.000296,0.651)]
+level 1: cells 412, resolved 226, left 186, elapsed 2s  [left: y1 in (0.000619,0.347), r in (0.00141,0.349)]
+level 2: cells 744, resolved 703, left 41, elapsed 3s  [left: y1 in (0.121,0.291), r in (0.00193,0.0268)]
+level 3: cells 164, resolved 134, left 30, elapsed 4s  [left: y1 in (0.132,0.187), r in (0.00243,0.0145)]
+level 4: cells 120, resolved 67, left 53, elapsed 5s  [left: y1 in (0.144,0.187), r in (0.00253,0.014)]
+level 5: cells 212, resolved 110, left 102, elapsed 5s  [left: y1 in (0.144,0.183), r in (0.00258,0.0137)]
+level 6: cells 408, resolved 212, left 196, elapsed 7s  [left: y1 in (0.146,0.183), r in (0.00261,0.0136)]
+level 7: cells 784, resolved 400, left 384, elapsed 9s  [left: y1 in (0.146,0.182), r in (0.00262,0.0136)]
+level 8: cells 1536, resolved 776, left 760, elapsed 12s  [left: y1 in (0.146,0.182), r in (0.00262,0.0135)]
+level 9: cells 3040, resolved 2467, left 573, elapsed 15s  [left: y1 in (0.146,0.182), r in (0.00263,0.0135)]
+level 10: cells 2292, resolved 2251, left 41, elapsed 17s  [left: y1 in (0.147,0.182), r in (0.00269,0.0135)]
+level 11: cells 164, resolved 164, left 0, elapsed 17s
+cover: resolved by criterion: {"T*<=0": 145, "tau T*>=1-y1": 1153, "delta<=eta": 4068, "c>c_b (lower bd)": 587, "c<c_a (upper bd)": 338, "F1 rho>rho_A": 611, "small-T* bounds": 44, "F0' c>c_b (partial bracket)": 255, "F2 c>c_b": 37, "F3 Gamma>0": 1819, "F3 Gamma<0": 2160, "F2 c<c_a": 12, "in tube": 2322}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [1.05, 1.25]: max rho_hat on the curve = 0.9786485;  eta = 0.021815  (rho_A = 1/(1+eta) = 0.9786507; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.995
+(Z1) r<=e^-30: lam_max=3.8252, T*<0.1275, y1+T*/b0<0.2056, c-1 <= 2.359e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>3.525e+09, c > 3.525e+09  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6066, left 78, elapsed 1s  [left: y1 in (0.00103,0.995), r in (0.00193,0.5)]
+level 1: cells 312, resolved 171, left 141, elapsed 2s  [left: y1 in (0.00359,0.728), r in (0.00669,0.281)]
+level 2: cells 564, resolved 523, left 41, elapsed 3s  [left: y1 in (0.153,0.456), r in (0.0107,0.0876)]
+level 3: cells 164, resolved 130, left 34, elapsed 4s  [left: y1 in (0.165,0.244), r in (0.0124,0.0656)]
+level 4: cells 136, resolved 82, left 54, elapsed 5s  [left: y1 in (0.178,0.226), r in (0.0129,0.061)]
+level 5: cells 216, resolved 117, left 99, elapsed 5s  [left: y1 in (0.178,0.226), r in (0.0134,0.061)]
+level 6: cells 396, resolved 232, left 164, elapsed 7s  [left: y1 in (0.18,0.223), r in (0.0134,0.0599)]
+level 7: cells 656, resolved 494, left 162, elapsed 8s  [left: y1 in (0.181,0.222), r in (0.0134,0.0599)]
+level 8: cells 648, resolved 470, left 178, elapsed 10s  [left: y1 in (0.181,0.221), r in (0.0135,0.0578)]
+level 9: cells 712, resolved 614, left 98, elapsed 11s  [left: y1 in (0.182,0.192), r in (0.0135,0.0201)]
+level 10: cells 392, resolved 392, left 0, elapsed 12s
+cover: resolved by criterion: {"T*<=0": 166, "tau T*>=1-y1": 1308, "delta<=eta": 3991, "c>c_b (lower bd)": 474, "c<c_a (upper bd)": 305, "F0' c>c_b (partial bracket)": 124, "F1 rho>rho_A": 396, "small-T* bounds": 51, "F2 c>c_b": 50, "F2 c<c_a": 21, "F3 Gamma>0": 752, "F3 Gamma<0": 803, "in tube": 850}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [1.25, 2.0]: max rho_hat on the curve = 0.9329208;  eta = 0.0719  (rho_A = 1/(1+eta) = 0.9329228; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.995
+(Z1) r<=e^-30: lam_max=2.6325, T*<0.0877, y1+T*/b0<0.1523, c-1 <= 1.869e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>3.829e+10, c > 3.829e+10  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6092, left 52, elapsed 1s  [left: y1 in (0.00359,0.995), r in (0.0124,0.777)]
+level 1: cells 208, resolved 90, left 118, elapsed 2s  [left: y1 in (0.00917,0.995), r in (0.023,0.577)]
+level 2: cells 472, resolved 401, left 71, elapsed 3s  [left: y1 in (0.153,0.728), r in (0.0421,0.281)]
+level 3: cells 284, resolved 250, left 34, elapsed 4s  [left: y1 in (0.209,0.264), r in (0.0567,0.173)]
+level 4: cells 136, resolved 86, left 50, elapsed 5s  [left: y1 in (0.217,0.244), r in (0.0588,0.168)]
+level 5: cells 200, resolved 129, left 71, elapsed 6s  [left: y1 in (0.217,0.239), r in (0.0588,0.162)]
+level 6: cells 284, resolved 135, left 149, elapsed 7s  [left: y1 in (0.221,0.239), r in (0.0593,0.161)]
+level 7: cells 596, resolved 361, left 235, elapsed 8s  [left: y1 in (0.221,0.238), r in (0.0596,0.161)]
+level 8: cells 940, resolved 814, left 126, elapsed 10s  [left: y1 in (0.223,0.237), r in (0.0637,0.154)]
+level 9: cells 504, resolved 504, left 0, elapsed 11s
+cover: resolved by criterion: {"T*<=0": 166, "tau T*>=1-y1": 1308, "delta<=eta": 4157, "c>c_b (lower bd)": 361, "c<c_a (upper bd)": 250, "F0' c>c_b (partial bracket)": 121, "F1 rho>rho_A": 226, "small-T* bounds": 38, "tau>=1/beta0": 29, "F2 c>c_b": 69, "F2 c<c_a": 22, "F3 Gamma>0": 733, "F3 Gamma<0": 733, "F1 rho<beta0": 23, "in tube": 626}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [2.0, 5.0]: max rho_hat on the curve = 0.8599830;  eta = 0.162811  (rho_A = 1/(1+eta) = 0.8599850; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.995
+(Z1) r<=e^-30: lam_max=1.8152, T*<0.0605, y1+T*/b0<0.1157, c-1 <= 1.550e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>1.963e+11, c > 1.963e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6098, left 46, elapsed 1s  [left: y1 in (0.00359,0.995), r in (0.0421,0.867)]
+level 1: cells 184, resolved 83, left 101, elapsed 2s  [left: y1 in (0.00671,0.995), r in (0.0567,0.777)]
+level 2: cells 404, resolved 254, left 150, elapsed 3s  [left: y1 in (0.0274,0.851), r in (0.116,0.615)]
+level 3: cells 600, resolved 464, left 136, elapsed 5s  [left: y1 in (0.0699,0.623), r in (0.152,0.5)]
+level 4: cells 544, resolved 483, left 61, elapsed 6s  [left: y1 in (0.186,0.576), r in (0.157,0.314)]
+level 5: cells 244, resolved 166, left 78, elapsed 7s  [left: y1 in (0.193,0.239), r in (0.16,0.306)]
+level 6: cells 312, resolved 187, left 125, elapsed 8s  [left: y1 in (0.201,0.237), r in (0.16,0.3)]
+level 7: cells 500, resolved 292, left 208, elapsed 10s  [left: y1 in (0.202,0.237), r in (0.16,0.297)]
+level 8: cells 832, resolved 683, left 149, elapsed 11s  [left: y1 in (0.203,0.237), r in (0.164,0.296)]
+level 9: cells 596, resolved 593, left 3, elapsed 12s  [left: y1 in (0.221,0.227), r in (0.226,0.244)]
+level 10: cells 12, resolved 12, left 0, elapsed 12s
+cover: resolved by criterion: {"T*<=0": 164, "tau T*>=1-y1": 1353, "delta<=eta": 4299, "c>c_b (lower bd)": 254, "c<c_a (upper bd)": 212, "F0 infeasible (K1(1)<T*)": 31, "F0' c>c_b (partial bracket)": 336, "F1 rho>rho_A": 173, "tau>=1/beta0": 104, "F2 c>c_b": 150, "F2 c<c_a": 21, "F3 Gamma<0": 730, "small-T* bounds": 7, "F1 rho<beta0": 95, "F3 Gamma>0": 785, "in tube": 601}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [5.0, 20.0]: max rho_hat on the curve = 0.7979936;  eta = 0.25314  (rho_A = 1/(1+eta) = 0.7979954; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.995
+(Z1) r<=e^-30: lam_max=1.3738, T*<0.0458, y1+T*/b0<0.0960, c-1 <= 1.381e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>4.747e+11, c > 4.747e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.995: g(0.31)=1.010676 > 1/y_top=1.005025: True; c > 22.916  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6103, left 41, elapsed 1s  [left: y1 in (0.00103,0.995), r in (0.0759,0.958)]
+level 1: cells 164, resolved 79, left 85, elapsed 2s  [left: y1 in (0.00263,0.995), r in (0.133,0.924)]
+level 2: cells 340, resolved 191, left 149, elapsed 3s  [left: y1 in (0.00574,0.851), r in (0.173,0.867)]
+level 3: cells 596, resolved 326, left 270, elapsed 5s  [left: y1 in (0.0185,0.623), r in (0.209,0.734)]
+level 4: cells 1080, resolved 700, left 380, elapsed 6s  [left: y1 in (0.0511,0.576), r in (0.244,0.615)]
+level 5: cells 1520, resolved 1064, left 456, elapsed 8s  [left: y1 in (0.085,0.543), r in (0.27,0.529)]
+level 6: cells 1824, resolved 1565, left 259, elapsed 11s  [left: y1 in (0.127,0.527), r in (0.281,0.446)]
+level 7: cells 1036, resolved 792, left 244, elapsed 13s  [left: y1 in (0.13,0.204), r in (0.295,0.442)]
+level 8: cells 976, resolved 688, left 288, elapsed 14s  [left: y1 in (0.131,0.203), r in (0.297,0.44)]
+level 9: cells 1152, resolved 1026, left 126, elapsed 15s  [left: y1 in (0.132,0.176), r in (0.354,0.439)]
+level 10: cells 504, resolved 495, left 9, elapsed 16s  [left: y1 in (0.133,0.139), r in (0.424,0.436)]
+level 11: cells 36, resolved 36, left 0, elapsed 16s
+cover: resolved by criterion: {"T*<=0": 161, "tau T*>=1-y1": 1358, "delta<=eta": 4474, "c>c_b (lower bd)": 199, "c<c_a (upper bd)": 210, "F0 infeasible (K1(1)<T*)": 250, "F0' c>c_b (partial bracket)": 1595, "tau>=1/beta0": 168, "F1 rho>rho_A": 184, "F2 c<c_a": 46, "F1 rho<beta0": 432, "F2 c>c_b": 464, "F3 Gamma<0": 1203, "F3 Gamma>0": 1288, "in tube": 1033}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [20.0, 50.0]: max rho_hat on the curve = 0.7632375;  eta = 0.310205  (rho_A = 1/(1+eta) = 0.7632393; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.999
+(Z1) r<=e^-30: lam_max=1.1705, T*<0.0390, y1+T*/b0<0.0869, c-1 <= 1.303e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>7.128e+11, c > 7.128e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.999: g(0.31)=1.010676 > 1/y_top=1.001001: True; c > 111.683  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6107, left 37, elapsed 2s  [left: y1 in (0.000296,0.999), r in (0.0759,0.988)]
+level 1: cells 148, resolved 76, left 72, elapsed 2s  [left: y1 in (0.00193,0.999), r in (0.133,0.943)]
+level 2: cells 288, resolved 163, left 125, elapsed 3s  [left: y1 in (0.00421,0.854), r in (0.223,0.912)]
+level 3: cells 500, resolved 268, left 232, elapsed 5s  [left: y1 in (0.00728,0.625), r in (0.251,0.876)]
+level 4: cells 928, resolved 487, left 441, elapsed 6s  [left: y1 in (0.0116,0.556), r in (0.274,0.832)]
+level 5: cells 1764, resolved 1030, left 734, elapsed 9s  [left: y1 in (0.0439,0.535), r in (0.281,0.656)]
+level 6: cells 2936, resolved 1894, left 1042, elapsed 12s  [left: y1 in (0.0758,0.524), r in (0.285,0.563)]
+level 7: cells 4168, resolved 3420, left 748, elapsed 18s  [left: y1 in (0.0904,0.519), r in (0.287,0.524)]
+level 8: cells 2992, resolved 2687, left 305, elapsed 22s  [left: y1 in (0.0933,0.134), r in (0.436,0.518)]
+level 9: cells 1220, resolved 690, left 530, elapsed 24s  [left: y1 in (0.0943,0.132), r in (0.437,0.516)]
+level 10: cells 2120, resolved 1700, left 420, elapsed 26s  [left: y1 in (0.0948,0.132), r in (0.439,0.515)]
+level 11: cells 1680, resolved 1597, left 83, elapsed 27s  [left: y1 in (0.0953,0.113), r in (0.477,0.514)]
+level 12: cells 332, resolved 332, left 0, elapsed 28s
+cover: resolved by criterion: {"T*<=0": 161, "tau T*>=1-y1": 1358, "delta<=eta": 4742, "c>c_b (lower bd)": 177, "c<c_a (upper bd)": 307, "F0 infeasible (K1(1)<T*)": 754, "F0' c>c_b (partial bracket)": 4110, "tau>=1/beta0": 142, "F1 rho>rho_A": 235, "F2 c<c_a": 167, "F2 c>c_b": 614, "F1 rho<beta0": 1860, "F3 Gamma<0": 2176, "F3 Gamma>0": 1754, "in tube": 1894}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [50.0, 100.0]: max rho_hat on the curve = 0.7543695;  eta = 0.325607  (rho_A = 1/(1+eta) = 0.7543714; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.999
+(Z1) r<=e^-30: lam_max=1.1221, T*<0.0374, y1+T*/b0<0.0847, c-1 <= 1.285e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>7.853e+11, c > 7.853e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.999: g(0.31)=1.010676 > 1/y_top=1.001001: True; c > 111.683  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6107, left 37, elapsed 1s  [left: y1 in (0.000296,0.999), r in (0.0759,0.988)]
+level 1: cells 148, resolved 76, left 72, elapsed 2s  [left: y1 in (0.000755,0.999), r in (0.133,0.977)]
+level 2: cells 288, resolved 160, left 128, elapsed 3s  [left: y1 in (0.00193,0.854), r in (0.223,0.958)]
+level 3: cells 512, resolved 274, left 238, elapsed 4s  [left: y1 in (0.00533,0.625), r in (0.266,0.906)]
+level 4: cells 952, resolved 496, left 456, elapsed 5s  [left: y1 in (0.00851,0.556), r in (0.289,0.871)]
+level 5: cells 1824, resolved 986, left 838, elapsed 8s  [left: y1 in (0.0123,0.535), r in (0.293,0.835)]
+level 6: cells 3352, resolved 1939, left 1413, elapsed 13s  [left: y1 in (0.0461,0.495), r in (0.3,0.654)]
+level 7: cells 5652, resolved 3877, left 1775, elapsed 20s  [left: y1 in (0.0681,0.455), r in (0.304,0.582)]
+level 8: cells 7100, resolved 5772, left 1328, elapsed 31s  [left: y1 in (0.0708,0.42), r in (0.306,0.575)]
+level 9: cells 5312, resolved 4867, left 445, elapsed 38s  [left: y1 in (0.0722,0.0963), r in (0.512,0.572)]
+level 10: cells 1780, resolved 959, left 821, elapsed 41s  [left: y1 in (0.073,0.0956), r in (0.514,0.57)]
+level 11: cells 3284, resolved 2482, left 802, elapsed 44s  [left: y1 in (0.0734,0.0954), r in (0.514,0.569)]
+level 12: cells 3208, resolved 3048, left 160, elapsed 46s  [left: y1 in (0.0735,0.0889), r in (0.529,0.568)]
+level 13: cells 640, resolved 640, left 0, elapsed 47s
+cover: resolved by criterion: {"T*<=0": 161, "tau T*>=1-y1": 1358, "delta<=eta": 4997, "c>c_b (lower bd)": 173, "c<c_a (upper bd)": 434, "F0 infeasible (K1(1)<T*)": 1418, "F0' c>c_b (partial bracket)": 7533, "F2 c<c_a": 542, "tau>=1/beta0": 83, "F1 rho>rho_A": 453, "F1 rho<beta0": 4995, "F2 c>c_b": 666, "F3 Gamma>0": 2689, "F3 Gamma<0": 3071, "in tube": 3110}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [100.0, 300.0]: max rho_hat on the curve = 0.7507985;  eta = 0.331912  (rho_A = 1/(1+eta) = 0.7508004; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.9999
+(Z1) r<=e^-30: lam_max=1.1029, T*<0.0368, y1+T*/b0<0.0838, c-1 <= 1.277e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>8.160e+11, c > 8.160e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.9998999999999999: g(0.31)=1.010676 > 1/y_top=1.000100: True; c > 1110.329  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6101, left 43, elapsed 1s  [left: y1 in (8.48e-05,1), r in (0.0759,0.996)]
+level 1: cells 172, resolved 93, left 79, elapsed 2s  [left: y1 in (0.000296,1), r in (0.133,0.991)]
+level 2: cells 316, resolved 171, left 145, elapsed 3s  [left: y1 in (0.000884,0.855), r in (0.223,0.977)]
+level 3: cells 580, resolved 315, left 265, elapsed 4s  [left: y1 in (0.00165,0.626), r in (0.266,0.964)]
+level 4: cells 1060, resolved 550, left 510, elapsed 6s  [left: y1 in (0.00244,0.557), r in (0.289,0.951)]
+level 5: cells 2040, resolved 967, left 1073, elapsed 9s  [left: y1 in (0.00687,0.515), r in (0.302,0.894)]
+level 6: cells 4292, resolved 2379, left 1913, elapsed 14s  [left: y1 in (0.00996,0.445), r in (0.308,0.862)]
+level 7: cells 7652, resolved 4442, left 3210, elapsed 25s  [left: y1 in (0.0148,0.419), r in (0.311,0.821)]
+level 8: cells 12840, resolved 8106, left 4734, elapsed 42s  [left: y1 in (0.0448,0.41), r in (0.312,0.661)]
+level 9: cells 18936, resolved 13803, left 5133, elapsed 67s  [left: y1 in (0.0469,0.399), r in (0.313,0.653)]
+level 10: cells 20532, resolved 17383, left 3149, elapsed 97s  [left: y1 in (0.0479,0.229), r in (0.384,0.649)]
+level 11: cells 12596, resolved 10149, left 2447, elapsed 113s  [left: y1 in (0.0483,0.0739), r in (0.567,0.648)]
+level 12: cells 9788, resolved 6254, left 3534, elapsed 127s  [left: y1 in (0.0486,0.0737), r in (0.568,0.647)]
+level 13: cells 14136, resolved 11650, left 2486, elapsed 139s  [left: y1 in (0.0487,0.0656), r in (0.591,0.646)]
+level 14: cells 9944, resolved 9333, left 611, elapsed 158s  [left: y1 in (0.0487,0.0521), r in (0.634,0.646)]
+level 15: cells 2444, resolved 2444, left 0, elapsed 163s
+cover: resolved by criterion: {"T*<=0": 161, "tau T*>=1-y1": 1358, "delta<=eta": 5637, "c>c_b (lower bd)": 167, "c<c_a (upper bd)": 515, "F0 infeasible (K1(1)<T*)": 3803, "F0' c>c_b (partial bracket)": 24197, "F2 c<c_a": 940, "tau>=1/beta0": 73, "F1 rho>rho_A": 585, "F1 rho<beta0": 18825, "F2 c>c_b": 1143, "F3 Gamma>0": 10953, "F3 Gamma<0": 11528, "in tube": 14255}
+cover: UNRESOLVED CELLS: 0
+
+==== piece c in [300.0, 1000.0]: max rho_hat on the curve = 0.7478567;  eta = 0.337151  (rho_A = 1/(1+eta) = 0.7478587; rho_hat <= rho_A verified: True)
+tails pass with U = 40, y_top = 0.9999
+(Z1) r<=e^-30: lam_max=1.0872, T*<0.0362, y1+T*/b0<0.0831, c-1 <= 1.271e-12  (< c_a-1: True)
+(Z2) 1-r<=e^-30: 1-T*<1.350e-13, y1<1.350e-13, kappa>8.420e+11, c > 8.420e+11  (> c_b: True)
+(Z3) y1<=e^-40: delta <= 8.3424e-03  (<= eta: True)
+(Z4) y1>=0.9998999999999999: g(0.31)=1.010676 > 1/y_top=1.000100: True; c > 1110.329  (> c_b: True)
+cover: sigma(-30) in (e^-31, e^-30): True
+ALL TAIL CHECKS PASS
+level 0: cells 6144, resolved 6099, left 45, elapsed 3s  [left: y1 in (2.43e-05,1), r in (0.0759,0.999)]
+level 1: cells 180, resolved 94, left 86, elapsed 5s  [left: y1 in (0.000158,1), r in (0.133,0.995)]
+level 2: cells 344, resolved 193, left 151, elapsed 7s  [left: y1 in (0.000253,0.855), r in (0.223,0.992)]
+level 3: cells 604, resolved 324, left 280, elapsed 11s  [left: y1 in (0.000473,0.626), r in (0.281,0.988)]
+level 4: cells 1120, resolved 571, left 549, elapsed 15s  [left: y1 in (0.00126,0.557), r in (0.297,0.972)]
+level 5: cells 2196, resolved 1068, left 1128, elapsed 27s  [left: y1 in (0.00189,0.515), r in (0.302,0.962)]
+level 6: cells 4512, resolved 2269, left 2243, elapsed 38s  [left: y1 in (0.0028,0.428), r in (0.312,0.948)]
+level 7: cells 8972, resolved 4662, left 4310, elapsed 66s  [left: y1 in (0.0075,0.397), r in (0.316,0.889)]
+level 8: cells 17240, resolved 9785, left 7455, elapsed 126s  [left: y1 in (0.0111,0.389), r in (0.317,0.854)]
+level 9: cells 29820, resolved 18290, left 11530, elapsed 210s  [left: y1 in (0.0166,0.384), r in (0.318,0.809)]
+level 10: cells 46120, resolved 29978, left 16142, elapsed 382s  [left: y1 in (0.0296,0.381), r in (0.318,0.73)]
+level 11: cells 64568, resolved 48155, left 16413, elapsed 542s  [left: y1 in (0.0305,0.379), r in (0.319,0.725)]
+level 12: cells 65652, resolved 57624, left 8028, elapsed 635s  [left: y1 in (0.0308,0.23), r in (0.384,0.723)]
+level 13: cells 32112, resolved 21822, left 10290, elapsed 682s  [left: y1 in (0.031,0.0489), r in (0.646,0.722)]
+level 14: cells 41160, resolved 27258, left 13902, elapsed 747s  [left: y1 in (0.0311,0.0489), r in (0.646,0.722)]
+level 15: cells 55608, resolved 45810, left 9798, elapsed 808s  [left: y1 in (0.0312,0.0421), r in (0.672,0.722)]
+level 16: cells 39192, resolved 38038, left 1154, elapsed 834s  [left: y1 in (0.0312,0.0351), r in (0.703,0.722)]
+level 17: cells 4616, resolved 4616, left 0, elapsed 836s
+cover: resolved by criterion: {"T*<=0": 161, "tau T*>=1-y1": 1358, "delta<=eta": 6726, "c>c_b (lower bd)": 157, "c<c_a (upper bd)": 615, "F0 infeasible (K1(1)<T*)": 11296, "F0' c>c_b (partial bracket)": 75699, "F2 c<c_a": 1682, "tau>=1/beta0": 65, "F1 rho>rho_A": 1136, "F1 rho<beta0": 74142, "F2 c>c_b": 2838, "F3 Gamma>0": 42402, "F3 Gamma<0": 43047, "in tube": 55332}
+cover: UNRESOLVED CELLS: 0
+
+SUMMARY
+  c in [1.001, 1.003]: rho_A = 0.999415, U = 45, y_top = 0.995, cells = 12666, certified = True
+  c in [1.003, 1.01]: rho_A = 0.998283, U = 45, y_top = 0.995, cells = 12393, certified = True
+  c in [1.01, 1.05]: rho_A = 0.994739, U = 45, y_top = 0.995, cells = 13551, certified = True
+  c in [1.05, 1.25]: rho_A = 0.978651, U = 40, y_top = 0.995, cells = 9291, certified = True
+  c in [1.25, 2.0]: rho_A = 0.932923, U = 40, y_top = 0.995, cells = 8862, certified = True
+  c in [2.0, 5.0]: rho_A = 0.859985, U = 40, y_top = 0.995, cells = 9315, certified = True
+  c in [5.0, 20.0]: rho_A = 0.797995, U = 40, y_top = 0.995, cells = 13065, certified = True
+  c in [20.0, 50.0]: rho_A = 0.763239, U = 40, y_top = 0.999, cells = 20451, certified = True
+  c in [50.0, 100.0]: rho_A = 0.754371, U = 40, y_top = 0.999, cells = 31683, certified = True
+  c in [100.0, 300.0]: rho_A = 0.750800, U = 40, y_top = 0.9999, cells = 94140, certified = True
+  c in [300.0, 1000.0]: rho_A = 0.747859, U = 40, y_top = 0.9999, cells = 316656, certified = True
+CERTIFIED: c in [1.001, 1000.0]   (total time 1693s)

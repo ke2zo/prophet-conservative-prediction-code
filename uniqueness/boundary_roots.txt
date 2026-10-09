@@ -1,0 +1,7 @@
+r=0.645: y1_max=0.050311941; zero of Gamma at y1=0.04906312608 (relative distance to the boundary 2.48e-02); c=295.765, rho_EL=0.747881
+r=0.7: y1_max=0.036134664; zero of Gamma at y1=0.03566347824 (relative distance to the boundary 1.30e-02); c=696.817, rho_EL=0.746765
+r=0.75: y1_max=0.026078857; zero of Gamma at y1=0.02590019079 (relative distance to the boundary 6.85e-03); c=1662.83, rho_EL=0.746158
+r=0.7823: y1_max=0.020705533; zero of Gamma at y1=0.02061587415 (relative distance to the boundary 4.33e-03); c=3115.79, rho_EL=0.745903
+r=0.85: y1_max=0.011698874; zero of Gamma at y1=0.01168271033 (relative distance to the boundary 1.38e-03); c=15285, rho_EL=0.745594
+r=0.9: y1_max=0.0066420975; zero of Gamma at y1=0.006639156648 (relative distance to the boundary 4.43e-04); c=76991.1, rho_EL=0.745491
+r=0.95: y1_max=0.0027227157; zero of Gamma at y1=0.00272251588 (relative distance to the boundary 7.34e-05); c=1.03729e+06, rho_EL=0.745449

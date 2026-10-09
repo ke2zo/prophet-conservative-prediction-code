@@ -1,0 +1,9 @@
+grid K = 160 (spacing (c-1)/K)
+
+=== c = 2.0:  rho_EL = 0.8592581   (EL: M* = 1.1732, eps = 0.4811, atom@1 = 1.4895, S0 = 2.9314)
+  start 0: J = 0.8592602 (J - rho_EL = +2.13e-06)  ALG = 1.1732  atom@1 = 1.5090  body mass = 0.9412  top of support below c (rate>1e-3) = 1.1750  gap mass (ALG,c) = 2.13e-06  atom@c = 0.4811
+  start 1: J = 0.8592602 (J - rho_EL = +2.13e-06)  ALG = 1.1732  atom@1 = 1.5091  body mass = 0.9411  top of support below c (rate>1e-3) = 1.1750  gap mass (ALG,c) = 4.71e-05  atom@c = 0.4811
+  start 2: J = 0.8592699 (J - rho_EL = +1.18e-05)  ALG = 1.1733  atom@1 = 1.5913  body mass = 0.8640  top of support below c (rate>1e-3) = 1.9937  gap mass (ALG,c) = 2.83e-02  atom@c = 0.4538
+  start 3: J = 0.8592602 (J - rho_EL = +2.13e-06)  ALG = 1.1732  atom@1 = 1.5090  body mass = 0.9411  top of support below c (rate>1e-3) = 1.1750  gap mass (ALG,c) = 1.84e-05  atom@c = 0.4811
+  start 4: J = 0.8592602 (J - rho_EL = +2.13e-06)  ALG = 1.1732  atom@1 = 1.5089  body mass = 0.9412  top of support below c (rate>1e-3) = 1.1750  gap mass (ALG,c) = 1.39e-05  atom@c = 0.4811
+  best: G at grid nodes (exact formula): min_i G(x_i) = -3.94e-07;  max over support |G(x_i)| = 3.94e-07;  G(c) = -3.94e-07;  max_i |G(x_i) - E dJ/da_i| = 3.5e-07

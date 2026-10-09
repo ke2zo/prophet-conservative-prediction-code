@@ -1,0 +1,4 @@
+c=3 n=3: rho_n(c) <= 0.87335; min adversary optimum over {0,1,a,ca}: 0.86645 (minus rho_n: -0.00690; minus rho(c): +0.04173); no-prediction ratio there 0.86645; a=2.0753 probs=[0.3819, 0.1779, 0.3552, 0.0851]  [14s]
+c=3 n=4: rho_n(c) <= 0.85842; min adversary optimum over {0,1,a,ca}: 0.85709 (minus rho_n: -0.00133; minus rho(c): +0.03237); no-prediction ratio there 0.85705; a=2.6133 probs=[0.4492, 0.2126, 0.2776, 0.0605]  [54s]
+c=3 n=5: rho_n(c) <= 0.85385; min adversary optimum over {0,1,a,ca}: 0.85051 (minus rho_n: -0.00334; minus rho(c): +0.02580); no-prediction ratio there 0.85051; a=2.7097 probs=[0.4848, 0.1707, 0.2835, 0.061]  [221s]
+c=3 n=6: rho_n(c) <= 0.84795; min adversary optimum over {0,1,a,ca}: 0.84433 (minus rho_n: -0.00362; minus rho(c): +0.01962); no-prediction ratio there 0.84054; a=2.2977 probs=[0.5745, 0.1538, 0.2234, 0.0483]  [672s]

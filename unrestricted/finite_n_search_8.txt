@@ -1,0 +1,2 @@
+n=8 [given 2.37408,0.62082,0.15329,0.18662,0.03928] adversary optimum 0.8396064  a=2.40495 probs=[0.63691, 0.13382, 0.19005, 0.03922]  (298 LPs, 7114s)
+(second start stopped after two hours; the finished start above is the instance of Proposition prop:finite)

@@ -1,0 +1,3 @@
+valid grid points: 112507 of 129600
+number of sign changes of Gamma along r, per y1-row: min 0 max 2
+rows with k crossings: {0: 325, 1: 8, 2: 27}

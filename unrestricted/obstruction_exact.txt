@@ -1,0 +1,18 @@
+=== obstruction instance: support ['1', '2', '4', '8', '32'], probs ['1/5', '1/5', '1/5', '1/5', '1/5'], c = 4, n = 2
+    E[M] = 14.840000; slabs (sets of M-values): [[1.0], [1.0, 2.0], [1.0, 2.0, 4.0], [2.0, 4.0], [2.0, 4.0, 8.0], [4.0, 8.0], [8.0], [8.0, 32.0], [32.0]]
+    adversary optimum over all valid randomized rules: LP 0.9407008; exact bounds [0.940700809, 0.940700809]
+    optimum over M-measurable (fractional) rules:      LP 0.9514825; exact bounds [0.951482480, 0.951482480]
+    optimum over deterministic M-measurable rules (exact, 384 rules): 0.951482480
+    envelope of the natural family (optimal policy per slab): 0.9407008;  rho(c) = 0.80767753027... (certified: ../certify/point_values.py 4)
+    explicit three-label rule: value 349/371 = 0.940700809 (exact)
+    labels used per value of M: {1.0: 1, 2.0: 2, 4.0: 2, 8.0: 2, 32.0: 1}  (>1 means not M-measurable)
+    separation: exact adversary optimum <= 0.940700809 < 0.951482480 <= every M-measurable rule; gap 0.010782
+    the explicit rule is optimal to within 0.00e+00 (exact lower bound 0.940700809)
+    explicit deterministic family (a): envelope = 349/371 (exact)
+    explicit family (b), rules depending on M only: envelope = 353/371 (exact); best deterministic M-measurable rule = 353/371
+=== natural-family breach: support ['0', '54443/10000', '93399/5000', '260801/10000', '435019/10000'], probs ['2630/9999', '6181/9999', '1048/9999', '29/9999', '37/3333'], c = 5, n = 2
+    E[M] = 8.616315; slabs (sets of M-values): [[5.4443], [5.4443, 18.6798], [5.4443, 18.6798, 26.0801], [18.6798, 26.0801], [18.6798, 26.0801, 43.5019], [26.0801, 43.5019], [43.5019], [0.0]]
+    adversary optimum over all valid randomized rules: LP 0.8935861; exact bounds [0.893586142, 0.893586142]
+    optimum over M-measurable (fractional) rules:      LP 0.8946411; exact bounds [0.894641137, 0.894641137]
+    optimum over deterministic M-measurable rules (exact, 144 rules): 0.897003118
+    envelope of the natural family (optimal policy per slab): 0.7940626;  rho(c) = 0.797303 (certified, Theorem 5.5)

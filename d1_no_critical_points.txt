@@ -1,0 +1,3 @@
+(1) max |G(c)-G(1) - closed form| over 40 random instances: 2.1e-40
+(2) max |G(1) - closed form|:                                  4.5e-41
+(3) max |r1 - S e^eps r2 - (P-S) S (k(S)-k(eps))| (free P):   3.7e-40

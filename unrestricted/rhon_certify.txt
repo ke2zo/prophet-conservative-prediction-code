@@ -1,0 +1,17 @@
+self-tests: reduced model vs dynamic program at 1495 feasible random points, max deviation of the ratio 8.6e-14; AD vs central differences at 54329 gradient components, max relative deviation 7.6e-08; 18000 random boxes, enclosures (values and gradients) missing the value at a random point: 0
+n=3: OPT_n - 0.873303 E[M_n] >= 0 certified in all 3 cases: 27721 boxes evaluated (55 accepted by the interval extension, 12878 by the mean-value form, 139 by the Lagrangian relaxation, 790 infeasible) [0s]
+      upper bound: atoms ['0', '1', '1.32065', '3'], probabilities ['0.32065', '0.306398', '0.253226', '0.119726']: OPT_3/E[M_3] = 0.8733034269 (exact)
+      hence 0.873303 <= rho_3(3) <= 0.8733034269
+      control: the bound 0.8733036 is refuted (case j=0, feasible point [1.000004, 0.320557, 0.627197] with f = -1.1e-07)
+n=4: OPT_n - 0.858415 E[M_n] >= 0 certified in all 4 cases: 584084 boxes evaluated (673 accepted by the interval extension, 126613 by the mean-value form, 121607 by the Lagrangian relaxation, 43151 infeasible) [3s]
+      upper bound: atoms ['0', '1', '1.176613', '3'], probabilities ['0.517737', '0.273811', '0.131783', '0.076669']: OPT_4/E[M_4] = 0.8584158483 (exact)
+      hence 0.858415 <= rho_4(3) <= 0.8584158483
+      control: the bound 0.8584161 is refuted (case j=1, feasible point [0.658905, 0.51767, 0.766113, 0.791748] with f = -3.9e-07)
+n=5: OPT_n - 0.853851 E[M_n] >= 0 certified in all 5 cases: 2899055 boxes evaluated (4533 accepted by the interval extension, 927623 by the mean-value form, 307822 by the Lagrangian relaxation, 209552 infeasible) [17s]
+      upper bound: atoms ['0', '1', '1.122377', '3'], probabilities ['0.627802', '0.236763', '0.079086', '0.056349']: OPT_5/E[M_5] = 0.8538515513 (exact)
+      hence 0.853851 <= rho_5(3) <= 0.8538515513
+      control: the bound 0.8538516 is refuted (case j=2, feasible point [0.49471, 0.627563, 0.751953, 0.864258] with f = -1.3e-07)
+n=6: OPT_n - 0.847779 E[M_n] >= 0 certified in all 6 cases: 12774986 boxes evaluated (29317 accepted by the interval extension, 3063963 by the mean-value form, 2147399 by the Lagrangian relaxation, 1146817 infeasible) [93s]
+      upper bound: atoms ['0', '1', '1.126235', '1.230558', '3'], probabilities ['0.636347', '0.190073', '0.066163', '0.054792', '0.052625']: OPT_6/E[M_6] = 0.8477795600 (exact)
+      hence 0.847779 <= rho_6(3) <= 0.8477795600
+      control: the bound 0.8477798 is refuted (case j=2, feasible point [0.489787, 0.636536, 0.704102, 0.826416, 0.892822] with f = -6.4e-09)

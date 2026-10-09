@@ -1,0 +1,32 @@
+n=2 c=2: 409 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0605; path-dependent strictly below every M-measurable rule on 106/409; min(no-prediction ratio - rho(c)) = +0.0281  [2s]
+      worst instance: vals=[0.0, 1.0, 1.0274, 1.4288, 1.4609, 2.414, 2.6663] probs=[0.1851, 0.0083, 0.1402, 0.203, 0.2101, 0.0719, 0.1813] adv=0.91971 M-meas=0.93179 no-pred=0.91838
+n=2 c=3: 409 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0756; path-dependent strictly below every M-measurable rule on 108/409; min(no-prediction ratio - rho(c)) = +0.0584  [3s]
+      worst instance: vals=[0.0, 1.0, 3.9811, 3.9842, 9.6328, 10.998] probs=[0.2386, 0.0639, 0.5161, 0.0026, 0.0004, 0.1785] adv=0.90033 M-meas=0.90033 no-pred=0.89777
+n=2 c=4: 409 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0812; path-dependent strictly below every M-measurable rule on 110/409; min(no-prediction ratio - rho(c)) = +0.0698  [5s]
+      worst instance: vals=[0.0, 1.0, 1.7442, 2.4622, 2.8322, 6.5707] probs=[0.2841, 0.154, 0.4054, 0.0229, 0.0018, 0.1317] adv=0.88888 M-meas=0.90339 no-pred=0.88888
+n=2 c=5: 409 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0885; path-dependent strictly below every M-measurable rule on 102/409; min(no-prediction ratio - rho(c)) = +0.0836  [7s]
+      worst instance: vals=[0.0, 1.0, 1.1492, 3.7776] probs=[0.2793, 0.6068, 0.0227, 0.0912] adv=0.88581 M-meas=0.88581 no-pred=0.88581
+n=3 c=2: 309 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0531; path-dependent strictly below every M-measurable rule on 89/309; min(no-prediction ratio - rho(c)) = +0.0133  [12s]
+      worst instance: vals=[0.0, 1.0, 1.0746, 1.7955, 1.8544, 3.0723] probs=[0.1977, 0.1211, 0.1077, 0.3055, 0.1069, 0.1611] adv=0.91235 M-meas=0.92411 no-pred=0.91235
+n=3 c=3: 309 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0701; path-dependent strictly below every M-measurable rule on 79/309; min(no-prediction ratio - rho(c)) = +0.0270  [16s]
+      worst instance: vals=[0.0, 1.0, 3.7224, 10.2318] probs=[0.3589, 0.1177, 0.3846, 0.1389] adv=0.89486 M-meas=0.89486 no-pred=0.88871
+n=3 c=4: 309 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0677; path-dependent strictly below every M-measurable rule on 92/309; min(no-prediction ratio - rho(c)) = +0.0519  [22s]
+      worst instance: vals=[0.0, 1.0, 1.0296, 1.5799, 2.4592, 3.8887] probs=[0.3615, 0.0009, 0.1723, 0.3595, 0.019, 0.0868] adv=0.87541 M-meas=0.87541 no-pred=0.87541
+n=3 c=5: 309 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0792; path-dependent strictly below every M-measurable rule on 89/309; min(no-prediction ratio - rho(c)) = +0.0531  [27s]
+      worst instance: vals=[0.0, 1.0, 2.6041, 3.3052, 4.9758, 21.2519, 38.1985] probs=[0.2235, 0.2963, 0.0094, 0.0065, 0.4038, 0.0544, 0.0061] adv=0.87654 M-meas=0.88381 no-pred=0.86589
+n=4 c=2: 159 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0356; path-dependent strictly below every M-measurable rule on 48/159; min(no-prediction ratio - rho(c)) = +0.0127  [35s]
+      worst instance: vals=[0.0, 1.0, 1.4142, 2.0, 2.8284, 4.0] probs=[0.3, 0.2524, 0.1767, 0.1237, 0.0866, 0.0606] adv=0.89482 M-meas=0.91085 no-pred=0.88506
+n=4 c=3: 159 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0518; path-dependent strictly below every M-measurable rule on 35/159; min(no-prediction ratio - rho(c)) = +0.0156  [43s]
+      worst instance: vals=[0.0, 1.0, 1.0271, 1.6711, 1.9015, 4.7271] probs=[0.3543, 0.2714, 0.0174, 0.2206, 0.097, 0.0393] adv=0.87656 M-meas=0.88826 no-pred=0.86961
+n=4 c=4: 159 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0661; path-dependent strictly below every M-measurable rule on 42/159; min(no-prediction ratio - rho(c)) = +0.0358  [52s]
+      worst instance: vals=[0.0, 1.0, 2.0, 4.0, 8.0, 16.0] probs=[0.3, 0.3613, 0.1806, 0.0903, 0.0452, 0.0226] adv=0.87375 M-meas=0.88352 no-pred=0.86470
+n=4 c=5: 159 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0727; path-dependent strictly below every M-measurable rule on 37/159; min(no-prediction ratio - rho(c)) = +0.0481  [60s]
+      worst instance: vals=[1.0, 11.4052, 28.649, 36.9824] probs=[0.5701, 0.3468, 0.0374, 0.0456] adv=0.87005 M-meas=0.87005 no-pred=0.87005
+n=5 c=2: 69 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0333; path-dependent strictly below every M-measurable rule on 29/69; min(no-prediction ratio - rho(c)) = +0.0045  [87s]
+      worst instance: vals=[0.0, 1.0, 1.4142, 2.0, 2.8284, 4.0] probs=[0.3, 0.2524, 0.1767, 0.1237, 0.0866, 0.0606] adv=0.89258 M-meas=0.90582 no-pred=0.88651
+n=5 c=3: 69 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0479; path-dependent strictly below every M-measurable rule on 28/69; min(no-prediction ratio - rho(c)) = +0.0152  [120s]
+      worst instance: vals=[0.0, 1.0, 1.7321, 3.0, 5.1962, 9.0] probs=[0.3, 0.3613, 0.1806, 0.0903, 0.0452, 0.0226] adv=0.87262 M-meas=0.88492 no-pred=0.86439
+n=5 c=4: 69 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0548; path-dependent strictly below every M-measurable rule on 25/69; min(no-prediction ratio - rho(c)) = +0.0286  [145s]
+      worst instance: vals=[0.0, 1.0, 2.0, 4.0, 8.0, 16.0] probs=[0.3, 0.3613, 0.1806, 0.0903, 0.0452, 0.0226] adv=0.86249 M-meas=0.87474 no-pred=0.85577
+n=5 c=5: 69 instances (9 structured); min(adv.opt/E[M] - rho(c)) = +0.0621; path-dependent strictly below every M-measurable rule on 28/69; min(no-prediction ratio - rho(c)) = +0.0394  [184s]
+      worst instance: vals=[0.0, 1.0, 2.2361, 5.0, 11.1803, 25.0] probs=[0.3, 0.3613, 0.1806, 0.0903, 0.0452, 0.0226] adv=0.85938 M-meas=0.86949 no-pred=0.85223
